@@ -481,3 +481,72 @@
 .copy p{
     font-size: 12px;
 }
+.settings-menus{
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    background: #fff;
+    box-shadow: 0   0   10px    rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 3560px;
+    right: 90px;
+    max-height: 0;
+    transition: max-height step-end 0.1s;
+}
+.settings-menuss{
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    background: #fff;
+    box-shadow: 0   0   10px    rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    right: 90px;
+    transition: max-height ease-in 0.1s;
+}
+.settings-menus-height{
+    max-height: 450px;
+}
+.settings-menuss-height{
+    max-height: 0,;
+}
+.user-profile a{
+    font-size: 12px;
+    color: #1876f2;
+    text-decoration: none;
+}
+.settings-menu-inner{
+    padding: 5px;
+}
+.settings-menu-inner h3{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.settings-menus hr{
+    border: 0;
+    height: 1px;
+    background: #9a9a9a;
+    margin: 15px 0;
+}
+.setttings-links{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.setttings-links .settings-icon{
+    width: 38px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.setttings-links a{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #626262;
+}
+.setttings-links span{
+    margin-left: 10px;
+    font-size: 13px;
+}
